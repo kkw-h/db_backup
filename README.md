@@ -5,8 +5,8 @@
 ## 功能
 
 - 连接到远程服务器 `172.31.11.151`
-- 备份Docker容器 `mysql.internal` 中的 `youxin` 数据库
-- 将备份文件保存到本地 `/path/db_backup/youxin` 目录
+- 备份Docker容器 `mysql.internal` 中的 `db_name` 数据库
+- 将备份文件保存到本地 `/path/db_backup/db_name` 目录
 - 自动压缩备份文件以节省空间
 - 自动删除30天前的旧备份
 - 每天凌晨1点自动执行备份
